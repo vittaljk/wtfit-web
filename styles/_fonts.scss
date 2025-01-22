@@ -1,0 +1,99 @@
+$font-path: '../public/fonts';
+
+// Source Sans Pro font variants
+
+// extralight
+@font-face {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 200;
+    src: url('#{$font-path}/Source_Sans_Pro/SourceSansPro-ExtraLight.ttf');
+}
+
+// extralight italic
+@font-face {
+    font-family: "Source Sans Pro Italic";
+    font-style: normal;
+    font-weight: 200;
+    src: url('#{$font-path}/Source_Sans_Pro/SourceSansPro-ExtraLightItalic.ttf');
+}
+
+// light
+@font-face {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 300;
+    src: url('#{$font-path}/Source_Sans_Pro/SourceSansPro-Light.ttf');
+}
+
+// light italic
+@font-face {
+    font-family: "Source Sans Pro Italic";
+    font-style: normal;
+    font-weight: 300;
+    src: url('#{$font-path}/Source_Sans_Pro/SourceSansPro-LightItalic.ttf');
+}
+
+// regular
+@font-face {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 400;
+    src: url('#{$font-path}/Source_Sans_Pro/SourceSansPro-Regular.ttf');
+}
+
+// regular italic
+@font-face {
+    font-family: "Source Sans Pro Italic";
+    font-style: normal;
+    font-weight: 400;
+    src: url('#{$font-path}/Source_Sans_Pro/SourceSansPro-Italic.ttf');
+}
+
+// semibold
+@font-face {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 600;
+    src: url('#{$font-path}/Source_Sans_Pro/SourceSansPro-SemiBold.ttf');
+}
+
+// semibold italic
+@font-face {
+    font-family: "Source Sans Pro Italic";
+    font-style: normal;
+    font-weight: 600;
+    src: url('#{$font-path}/Source_Sans_Pro/SourceSansPro-SemiBoldItalic.ttf');
+}
+
+// bold
+@font-face {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 700;
+    src: url('#{$font-path}/Source_Sans_Pro/SourceSansPro-Bold.ttf');
+}
+
+// bold italic
+@font-face {
+    font-family: "Source Sans Pro Italic";
+    font-style: normal;
+    font-weight: 700;
+    src: url('#{$font-path}/Source_Sans_Pro/SourceSansPro-BoldItalic.ttf');
+}
+
+// black
+@font-face {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 900;
+    src: url('#{$font-path}/Source_Sans_Pro/SourceSansPro-Black.ttf');
+}
+
+// black italic
+@font-face {
+    font-family: "Source Sans Pro Italic";
+    font-style: normal;
+    font-weight: 900;
+    src: url('#{$font-path}/Source_Sans_Pro/SourceSansPro-BlackItalic.ttf');
+}

@@ -1,0 +1,13 @@
+.headerWrapper {
+    @apply bg-headerBg;
+    transition: opacity 0.3s ease;
+    .headerContainer {
+        @apply mx-5 md:container md:mx-auto h-full flex items-center justify-between text-white md:px-4 md:h-16;
+        .leftContainer {
+            @apply flex items-center gap-4 md:gap-10;
+        }
+        .rightContainer {
+            @apply h-full;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.layoutContainer {
+    @apply h-full grid grid-rows-[56px_1fr] md:grid-rows-[64px_1fr];
+}
+
+
+.item {
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    padding-top: 75px;
+    background: #ccc;
+    text-align: center;
+    color: #FFF;
+    font-size: 3em;
+  }

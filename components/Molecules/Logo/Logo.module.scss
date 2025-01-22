@@ -1,0 +1,6 @@
+.logoContainer {
+    @apply h-full flex items-center;
+    img {
+        @apply max-h-full max-w-full h-auto w-20 py-2 md:py-[10px];
+    }
+}
