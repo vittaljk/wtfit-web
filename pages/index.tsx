@@ -149,8 +149,7 @@ function IndexPage() {
           text: "book now",
           onClick: handleBooking,
         }}
-        heroImage="https://res.cloudinary.com/dckehlgqk/image/upload/v1737198698/DSC06278_pogsjh.jpg"
-        // heroImage="https://res.cloudinary.com/dckehlgqk/image/upload/v1737219378/IMG_8618_b9txjz.jpg"
+        heroImage="https://res.cloudinary.com/dckehlgqk/image/upload/v1737603855/24th_event_banner_image_hw0a1d.jpg"
       />
       <div className="px-6 py-8" data-aos="fade-up">
         Fitness is the state of physical and mental well-being achieved through
