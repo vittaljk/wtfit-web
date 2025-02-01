@@ -31,7 +31,7 @@ function IndexPage() {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ amount: 100 }),
+      body: JSON.stringify({ amount: 600 }),
     });
 
     const order = await response.json();

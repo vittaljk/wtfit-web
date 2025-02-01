@@ -72,7 +72,7 @@ function IndexPage() {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ amount: 80000 }),
+      body: JSON.stringify({ amount: 60000 }),
     });
 
     const order = await response.json();
@@ -149,7 +149,7 @@ function IndexPage() {
           text: "book now",
           onClick: handleBooking,
         }}
-        heroImage="https://res.cloudinary.com/dckehlgqk/image/upload/v1737640886/24rth-26th_event_banner_lvodas.jpg"
+        heroImage="https://res.cloudinary.com/dckehlgqk/image/upload/v1738428647/fun_event_8th_se4ixp.jpg"
       />
       <div className="px-6 py-8" data-aos="fade-up">
         Fitness is the state of physical and mental well-being achieved through
@@ -166,32 +166,23 @@ function IndexPage() {
       </div>
       <div className="m-5 p-6 bg-white rounded-lg shadow-[0px_4px_12px_rgba(0,0,0,0.4)]  text-gray-800">
         <h2 className="text-2xl font-bold mb-4 text-center">
-          Handstand Progression Workshop
+          Dance Choreography Workshop
         </h2>
-        <p className="mb-4 leading-relaxed">
-          Are you struggling to do a Handstand? Don’t worry, we @{" "}
-          <span className="font-bold">WTFit</span> have curated the perfect
-          combination of Warm-ups, Mobility, Strengthening exercises, and a
-          hidden secret trick that will make sure you step out of the workshop
-          with your hands and not legs 😉
-        </p>
-        <p className="mb-4 leading-relaxed">
-          So what are you waiting for??? Register yourself and block your place!
+
+        <p className="mb-2 text-sm">
+          <span className="font-semibold text-gray-700">Dates:</span> 8th –
+          9th February 2025
         </p>
         <p className="mb-2 text-sm">
-          <span className="font-semibold text-gray-700">Dates:</span> 24th –
-          26th January 2025
-        </p>
-        <p className="mb-2 text-sm">
-          <span className="font-semibold text-gray-700">Timing:</span> 8:00 AM –
-          10:00 AM
+          <span className="font-semibold text-gray-700">Timing:</span> 9:00 AM –
+          11:00 AM
         </p>
         <p className="mb-2 text-sm">
           <span className="font-semibold text-gray-700">Place:</span> NH2
           Dopamine, Kathriguppe, Banashankari 3rd Stage
         </p>
         <p className="text-sm">
-          <span className="font-semibold text-gray-700">Amout:</span> 800 INR
+          <span className="font-semibold text-gray-700">Amout:</span> 600 INR
         </p>
         <div className="mt-4">
           <Button fullWidth color="primary" onPress={handleBooking}>
